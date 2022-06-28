@@ -1,11 +1,11 @@
 import React from "react";
+import Layout from "../components/Layout";
 
 const IndexPage = () => {
   return (
-    <main>
-      <title>Home Page</title>
-      <h1>Home Page</h1>
-    </main>
+    <Layout pageTitle="Home Page">
+      <p>홈 페이지 입니다.</p>
+    </Layout>
   );
 };
 
